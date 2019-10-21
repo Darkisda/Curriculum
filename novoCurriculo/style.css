@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,body, #root{
+    min-height: 100%;
+}
+
+body{
+    background: #000 url('background_2.jpg') no-repeat;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.linkado{
+    cursor: pointer;
+}
+
+.centerImg {
+    margin: 50px auto  0;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    margin: 20px auto 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+    border-radius: 50%;
+    box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.7);
+}
+
+.nome{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 15px 15px;
+}
+
+.limite{
+    width: 250px;
+    text-align: justify;
+}
+
+.texto{
+    height: 350px;
+    overflow-y: scroll;
+}
